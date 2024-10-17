@@ -10,7 +10,7 @@ num-integer = "0.1"
 num-traits = "0.2"
 # TODO fix when halo2 releases 0.3.1 and halo2wrong uses it
 #halo2 = { package = "halo2_proofs", git = "https://github.com/privacy-scaling-explorations/halo2", tag = "v0.3.0" }
-halo2 = { package = "halo2_proofs", git = "https://github.com/powdr-labs/halo2", branch = "make-emit-public-v0.3.0" }
+halo2 = { package = "halo2_proofs", git = "https://github.com/powdr-labs/halo2", rev = "fb8087565115ff38da4074b9d1777e9a97222caa" }
 
 [dev-dependencies]
 rand = "0.8"
